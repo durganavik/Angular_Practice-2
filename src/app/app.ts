@@ -10,4 +10,8 @@ import { DataBinding } from "./data-binding/data-binding";
 })
 export class App {
   protected readonly title = signal('Practice_2');
+  name = 'Khushi';
+  age = 22;
+  city = 'Surat';
+  profession = 'Web Developer';
 }
